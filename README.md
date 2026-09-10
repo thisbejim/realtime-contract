@@ -20,7 +20,8 @@ Requires Python 3.10+.
 
 ```console
 $ python -m venv .venv
-$ .venv/bin/python -m pip install -e .
+$ source .venv/bin/activate
+$ python -m pip install -e .
 $ realtime-contract check examples/valid-text.jsonl
 Realtime Contract: PASS
 Events 14 | known 14 | unknown 0 | responses 1

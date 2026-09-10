@@ -1,0 +1,6 @@
+{"source":"server","event":{"type":"session.created","event_id":"e1","session":{"id":"sess_bad","type":"realtime"}}}
+{"source":"client","event":{"type":"input_audio_buffer.commit","event_id":"c1"}}
+{"source":"server","event":{"type":"response.output_text.delta","event_id":"e2","response_id":"missing","item_id":"item","output_index":0,"content_index":0,"delta":"late"}}
+{"source":"server","event":{"type":"response.done","event_id":"e1","response":{"id":"missing","status":"in_progress"}}}
+{"source":"server","event":{"type":"response.function_call_arguments.done","event_id":"e4","response_id":"missing","item_id":"item_call","output_index":0,"call_id":"call_bad","name":"run","arguments":"{\"x\": "}}
+not-json

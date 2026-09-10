@@ -1,0 +1,11 @@
+{"source":"server","event":{"type":"session.created","event_id":"e1","session":{"id":"sess_tool","type":"realtime"}}}
+{"source":"client","event":{"type":"response.create","event_id":"c1"}}
+{"source":"server","event":{"type":"response.created","event_id":"e2","response":{"id":"resp_tool","status":"in_progress"}}}
+{"source":"server","event":{"type":"response.output_item.added","event_id":"e3","response_id":"resp_tool","output_index":0,"item":{"id":"item_call","type":"function_call","call_id":"call_weather","name":"get_weather","arguments":""}}}
+{"source":"server","event":{"type":"response.function_call_arguments.delta","event_id":"e4","response_id":"resp_tool","item_id":"item_call","output_index":0,"call_id":"call_weather","delta":"{\"city\":"}}
+{"source":"server","event":{"type":"response.function_call_arguments.delta","event_id":"e5","response_id":"resp_tool","item_id":"item_call","output_index":0,"call_id":"call_weather","delta":"\"Tokyo\"}"}}
+{"source":"server","event":{"type":"response.function_call_arguments.done","event_id":"e6","response_id":"resp_tool","item_id":"item_call","output_index":0,"call_id":"call_weather","name":"get_weather","arguments":"{\"city\":\"Tokyo\"}"}}
+{"source":"server","event":{"type":"response.output_item.done","event_id":"e7","response_id":"resp_tool","output_index":0,"item":{"id":"item_call","type":"function_call","call_id":"call_weather","name":"get_weather","arguments":"{\"city\":\"Tokyo\"}","status":"completed"}}}
+{"source":"server","event":{"type":"response.done","event_id":"e8","response":{"id":"resp_tool","status":"completed"}}}
+{"source":"client","event":{"type":"conversation.item.create","event_id":"c2","item":{"id":"item_output","type":"function_call_output","call_id":"call_weather","output":"Tokyo is sunny."}}}
+{"source":"server","event":{"type":"conversation.item.created","event_id":"e9","item":{"id":"item_output","type":"function_call_output","call_id":"call_weather","output":"Tokyo is sunny.","status":"completed"}}}

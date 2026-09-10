@@ -1,0 +1,2 @@
+{"source":"server","event":{"type":"session.created","event_id":"e1","session":{"id":"sess_unknown","type":"realtime"}}}
+{"source":"server","event":{"type":"future.realtime.event","event_id":"e2","payload":{"safe":true}}}

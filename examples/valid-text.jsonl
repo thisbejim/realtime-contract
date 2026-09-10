@@ -1,0 +1,14 @@
+{"source":"server","timestamp":1710000000.000,"event":{"type":"session.created","event_id":"e_session","session":{"id":"sess_text","type":"realtime"}}}
+{"source":"client","timestamp":1710000000.010,"event":{"type":"session.update","event_id":"c_session","session":{"type":"realtime","output_modalities":["text"]}}}
+{"source":"server","timestamp":1710000000.020,"event":{"type":"session.updated","event_id":"e_updated","session":{"id":"sess_text","type":"realtime","output_modalities":["text"]}}}
+{"source":"client","timestamp":1710000000.030,"event":{"type":"conversation.item.create","event_id":"c_item","item":{"id":"item_user","type":"message","role":"user","content":[{"type":"input_text","text":"Say hello."}]}}}
+{"source":"server","timestamp":1710000000.040,"event":{"type":"conversation.item.created","event_id":"e_item","item":{"id":"item_user","type":"message","role":"user","content":[{"type":"input_text","text":"Say hello."}]},"previous_item_id":null}}
+{"source":"client","timestamp":1710000000.050,"event":{"type":"response.create","event_id":"c_response"}}
+{"source":"server","timestamp":1710000000.060,"event":{"type":"response.created","event_id":"e_response_created","response":{"id":"resp_text","status":"in_progress"}}}
+{"source":"server","timestamp":1710000000.070,"event":{"type":"response.output_item.added","event_id":"e_item_added","response_id":"resp_text","output_index":0,"item":{"id":"item_assistant","type":"message","role":"assistant","status":"in_progress"}}}
+{"source":"server","timestamp":1710000000.080,"event":{"type":"response.content_part.added","event_id":"e_part_added","response_id":"resp_text","item_id":"item_assistant","output_index":0,"content_index":0,"part":{"type":"text","text":""}}}
+{"source":"server","timestamp":1710000000.090,"event":{"type":"response.output_text.delta","event_id":"e_delta","response_id":"resp_text","item_id":"item_assistant","output_index":0,"content_index":0,"delta":"Hello there!"}}
+{"source":"server","timestamp":1710000000.100,"event":{"type":"response.output_text.done","event_id":"e_text_done","response_id":"resp_text","item_id":"item_assistant","output_index":0,"content_index":0,"text":"Hello there!"}}
+{"source":"server","timestamp":1710000000.110,"event":{"type":"response.content_part.done","event_id":"e_part_done","response_id":"resp_text","item_id":"item_assistant","output_index":0,"content_index":0,"part":{"type":"text","text":"Hello there!"}}}
+{"source":"server","timestamp":1710000000.120,"event":{"type":"response.output_item.done","event_id":"e_item_done","response_id":"resp_text","output_index":0,"item":{"id":"item_assistant","type":"message","role":"assistant","status":"completed"}}}
+{"source":"server","timestamp":1710000000.130,"event":{"type":"response.done","event_id":"e_response_done","response":{"id":"resp_text","status":"completed"}}}

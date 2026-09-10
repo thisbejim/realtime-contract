@@ -21,6 +21,11 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/thisbejim/realtime-contract"
+Repository = "https://github.com/thisbejim/realtime-contract"
+Issues = "https://github.com/thisbejim/realtime-contract/issues"
+
 [project.optional-dependencies]
 dev = [
   "mypy>=1.11",
